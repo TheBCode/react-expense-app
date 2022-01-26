@@ -11,9 +11,9 @@ import 'normalize.css/normalize.css';
 
 const store = configureStore();
 
-store.dispatch(addExpense({description: 'Gas Bill', amount: 10189}));
-store.dispatch(addExpense({description: 'Electric Bill', amount: 3700, createdAt: 1000}));
-store.dispatch(addExpense({description: 'Rent', amount: 145900}));
+// store.dispatch(addExpense({description: 'Gas Bill', amount: 10189}));
+// store.dispatch(addExpense({description: 'Electric Bill', amount: 3700, createdAt: 1000}));
+// store.dispatch(addExpense({description: 'Rent', amount: 145900}));
 // store.dispatch(setTextFilter('gas'));
 
 const state = store.getState();
