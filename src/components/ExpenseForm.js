@@ -5,6 +5,7 @@ import 'react-dates/lib/css/_datepicker.css';
 
 const now = moment();
 console.log(now.format('LLLL'));
+
 export default class ExpenseForm extends React.Component {
     constructor(props) {
         super(props);
@@ -21,12 +22,12 @@ export default class ExpenseForm extends React.Component {
 
     onDescriptionChange = (e) => {
       const description = e.target.value;
-      this.setState(() => ({description}));
+      this.setState(() => ({ description }));
     };
 
     onNoteChange = (e) => {
         const note = e.target.value;
-        this.setState(() => ({note}));
+        this.setState(() => ({ note }));
     }
 
     onAmountChange = (e) => {

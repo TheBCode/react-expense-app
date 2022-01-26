@@ -12,8 +12,8 @@ const EditExpensePage = (props) => {
                 onSubmit={(expense) => {
                     //Dispatch the action to edit the expense
                     props.dispatch(editExpense(props.expense.id, expense));
-                    props.history.push('/');
                     //Redirect to the dashboard page
+                    props.history.push('/');
                     console.log('updated', expense);
                 }}
             />
