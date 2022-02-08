@@ -2068,7 +2068,7 @@ Lockfile:
       isomorphic-fetch "^2.1.1"
       loose-envify "^1.0.0"
       object-assign "^4.1.0"
-      promise "^7.1.1"
+      promises "^7.1.1"
       setimmediate "^1.0.5"
       ua-parser-js "^0.7.30"
   
@@ -2138,7 +2138,7 @@ Lockfile:
     integrity sha1-ay6YIrGizgpgq2TWEOzK1TyyTQ8=
     dependencies:
       path-exists "^2.0.0"
-      pinkie-promise "^2.0.0"
+      pinkie-promises "^2.0.0"
   
   find-up@^2.1.0:
     version "2.1.0"
@@ -2293,7 +2293,7 @@ Lockfile:
       glob "^7.0.3"
       object-assign "^4.0.1"
       pify "^2.0.0"
-      pinkie-promise "^2.0.0"
+      pinkie-promises "^2.0.0"
   
   graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.4:
     version "4.2.8"
@@ -2952,7 +2952,7 @@ Lockfile:
       graceful-fs "^4.1.2"
       parse-json "^2.2.0"
       pify "^2.0.0"
-      pinkie-promise "^2.0.0"
+      pinkie-promises "^2.0.0"
       strip-bom "^2.0.0"
   
   loader-runner@^2.3.0:
@@ -3412,7 +3412,7 @@ Lockfile:
     integrity sha1-erwi5kTf9jsKltWrfyeQwPAavJU=
     dependencies:
       object-assign "^4.0.1"
-      pinkie-promise "^2.0.0"
+      pinkie-promises "^2.0.0"
   
   opn@latest:
     version "6.0.0"
@@ -3541,7 +3541,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-2.1.0.tgz#0feb6c64f0fc518d9a754dd5efb62c7022761f4b"
     integrity sha1-D+tsZPD8UY2adU3V77YscCJ2H0s=
     dependencies:
-      pinkie-promise "^2.0.0"
+      pinkie-promises "^2.0.0"
   
   path-exists@^3.0.0:
     version "3.0.0"
@@ -3575,7 +3575,7 @@ Lockfile:
     dependencies:
       graceful-fs "^4.1.2"
       pify "^2.0.0"
-      pinkie-promise "^2.0.0"
+      pinkie-promises "^2.0.0"
   
   pause-stream@0.0.11:
     version "0.0.11"
@@ -3610,9 +3610,9 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
     integrity sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=
   
-  pinkie-promise@^2.0.0:
+  pinkie-promises@^2.0.0:
     version "2.0.1"
-    resolved "https://registry.yarnpkg.com/pinkie-promise/-/pinkie-promise-2.0.1.tgz#2135d6dfa7a358c069ac9b178776288228450ffa"
+    resolved "https://registry.yarnpkg.com/pinkie-promises/-/pinkie-promises-2.0.1.tgz#2135d6dfa7a358c069ac9b178776288228450ffa"
     integrity sha1-ITXW36ejWMBprJsXh3YogihFD/o=
     dependencies:
       pinkie "^2.0.0"
@@ -3667,9 +3667,9 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
     integrity sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
   
-  promise@^7.1.1:
+  promises@^7.1.1:
     version "7.3.1"
-    resolved "https://registry.yarnpkg.com/promise/-/promise-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
+    resolved "https://registry.yarnpkg.com/promises/-/promises-7.3.1.tgz#064b72602b18f90f29192b8b1bc418ffd1ebd3bf"
     integrity sha512-nolQXZ/4L+bP/UGlkfaIujX9BKxGwmQ9OT4mOt5yvy8iK1h3wqTEJCijzGANTCCl9nWjY41juyAn2K3Q1hLLTg==
     dependencies:
       asap "~2.0.3"
